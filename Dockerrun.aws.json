@@ -6,19 +6,19 @@
         "image": "sdubey695/multi-client",
         "hostname": "client",
         "essential": false
-     }
+     },
      {
         "name": "server",
         "image": "sdubey695/multi-server",
         "hostname": "api",
         "essential": false
-     }
+     },
      {
         "name": "worker",
         "image": "sdubey695/multi-worker",
         "hostname": "worker",
         "essential": false
-     }
+     },
      {
         "name": "nginx",
         "image": "sdubey695/multi-nginx",
