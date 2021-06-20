@@ -17,7 +17,7 @@ after_success:
   - docker build -t sdubey695/multi-worker ./worker
   # Log in to the docker CLI
   - echo "$DOCKER_HUB_PSSWD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
-  #  Take those images and push them to docker hub
+  #  Take  those images and push them to docker hub
   - docker push sdubey695/multi-client
   - docker push sdubey695/multi-nginx
   - docker push sdubey695/multi-server
